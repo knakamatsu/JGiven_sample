@@ -6,7 +6,7 @@ pipeline {
         sleep 1
       }
     }
-    stage('error') {
+    stage('testing') {
       steps {
         parallel(
           "ui_testing": {
